@@ -1,0 +1,23 @@
+.el-menu-vertical {
+  height: 100rem;
+  .el-menu-item {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.dashboard-navbar {
+  .el-autocomplete {
+    .el-input {
+      color: #25273c;
+      font-size: 14px;
+      height: 4rem;
+      width: 20rem;
+
+      &__suffix {
+        color: #25273c;
+        height: 50%;
+      }
+    }
+  }
+}

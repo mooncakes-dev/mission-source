@@ -1,0 +1,14 @@
+.register-card {
+  .header {
+    img {
+      height: 45px;
+    }
+  }
+  .card {
+    border: none;
+    border-left: 10px solid;
+    border-left-color: var(--purple-two);
+    box-shadow: 0px 0px 20px 6px rgba(37, 39, 60, 0.14);
+    border-radius: 10px;
+  }
+}

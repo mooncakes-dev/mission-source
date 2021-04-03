@@ -1,0 +1,29 @@
+@import "./variables";
+@import "./typography";
+@import "./vendor/element-variables";
+// Bootstrap and its default variables
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+// BootstrapVue and its default variables
+@import "../../../node_modules/bootstrap-vue/src/index.scss";
+
+// components import
+
+@import "./components/registration";
+@import "./components/sideNavigation";
+@import "./components/missionCard";
+
+// pages import
+
+@import "./pages/homePage";
+@import "./pages/dashboardPage";
+@import "./pages/createMissionPage";
+@import "./pages/missionDetails";
+@import "./pages/profilePage";
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.el-aside {
+  width: auto !important;
+}
